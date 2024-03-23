@@ -64,21 +64,21 @@ namespace ToolSmartSwitch
 
             configMenu.AddBoolOption(
                 mod: ModManifest,
-                name: () => "Mod Enabled",
+                name: () => SHelper.Translation.Get("configuration.modEnabled"),
                 getValue: () => Config.EnableMod,
                 setValue: value => Config.EnableMod = value
             );
             
             configMenu.AddKeybind(
                 mod: ModManifest,
-                name: () => "Toggle Button",
+                name: () => SHelper.Translation.Get("configuration.toggleButton"),
                 getValue: () => Config.ToggleButton,
                 setValue: value => Config.ToggleButton = value
             );
 
             configMenu.AddBoolOption(
                 mod: ModManifest,
-                name: () => "Only When Holding Tool",
+                name: () => SHelper.Translation.Get("configuration.onlyWhenHolding"),
                 getValue: () => Config.HoldingTool,
                 setValue: value => Config.HoldingTool = value
             );
@@ -86,20 +86,20 @@ namespace ToolSmartSwitch
 
             configMenu.AddBoolOption(
                 mod: ModManifest,
-                name: () => "Switch From Weapon",
+                name: () => SHelper.Translation.Get("configuration.switchFromWeapon"),
                 getValue: () => Config.FromWeapon,
                 setValue: value => Config.FromWeapon = value
             );
 
             configMenu.AddBoolOption(
                 mod: ModManifest,
-                name: () => "Switch For Animals",
+                name: () => SHelper.Translation.Get("configuration.switchForAnimals"),
                 getValue: () => Config.SwitchForAnimals,
                 setValue: value => Config.SwitchForAnimals = value
             );
             configMenu.AddBoolOption(
                 mod: ModManifest,
-                name: () => "Switch For Monsters",
+                name: () => SHelper.Translation.Get("configuration.switchForMonsters"),
                 getValue: () => Config.SwitchForMonsters,
                 setValue: value => Config.SwitchForMonsters = value
             ); 
@@ -111,67 +111,67 @@ namespace ToolSmartSwitch
             );
             configMenu.AddBoolOption(
                 mod: ModManifest,
-                name: () => "Switch For Trees",
+                name: () => SHelper.Translation.Get("configuration.switchForTrees"),
                 getValue: () => Config.SwitchForTrees,
                 setValue: value => Config.SwitchForTrees = value
             );
             configMenu.AddBoolOption(
                 mod: ModManifest,
-                name: () => "Switch For Grass",
+                name: () => SHelper.Translation.Get("configuration.switchForGrass"),
                 getValue: () => Config.SwitchForGrass,
                 setValue: value => Config.SwitchForGrass = value
             );
             configMenu.AddBoolOption(
                 mod: ModManifest,
-                name: () => "Switch For Crops",
+                name: () => SHelper.Translation.Get("configuration.switchForCrops"),
                 getValue: () => Config.SwitchForCrops,
                 setValue: value => Config.SwitchForCrops = value
             );
             configMenu.AddBoolOption(
                 mod: ModManifest,
-                name: () => "Harvest With Scythe (Mod)",
+                name: () => SHelper.Translation.Get("configuration.harvestWithScythe"),
                 getValue: () => Config.HarvestWithScythe,
                 setValue: value => Config.HarvestWithScythe = value
             );
             configMenu.AddBoolOption(
                 mod: ModManifest,
-                name: () => "Switch For Resource Clumps",
+                name: () => SHelper.Translation.Get("configuration.switchForResourceClumps"),
                 getValue: () => Config.SwitchForResourceClumps,
                 setValue: value => Config.SwitchForResourceClumps = value
             );
             configMenu.AddBoolOption(
                 mod: ModManifest,
-                name: () => "Switch For Pan",
+                name: () => SHelper.Translation.Get("configuration.switchForPan"),
                 getValue: () => Config.SwitchForPan,
                 setValue: value => Config.SwitchForPan = value
             );
             configMenu.AddBoolOption(
                 mod: ModManifest,
-                name: () => "Switch For Watering Can",
+                name: () => SHelper.Translation.Get("configuration.switchForWateringCan"),
                 getValue: () => Config.SwitchForWateringCan,
                 setValue: value => Config.SwitchForWateringCan = value
             );
             configMenu.AddBoolOption(
                 mod: ModManifest,
-                name: () => "Switch For Tilling",
+                name: () => SHelper.Translation.Get("configuration.switchForTilling"),
                 getValue: () => Config.SwitchForTilling,
                 setValue: value => Config.SwitchForTilling = value
             );
             configMenu.AddBoolOption(
                 mod: ModManifest,
-                name: () => "Switch For Watering",
+                name: () => SHelper.Translation.Get("configuration.switchForWatering"),
                 getValue: () => Config.SwitchForWatering,
                 setValue: value => Config.SwitchForWatering = value
             );
             configMenu.AddBoolOption(
                 mod: ModManifest,
-                name: () => "Switch For Fishing",
+                name: () => SHelper.Translation.Get("configuration.switchForFishing"),
                 getValue: () => Config.SwitchForFishing,
                 setValue: value => Config.SwitchForFishing = value
             );
             configMenu.AddBoolOption(
                 mod: ModManifest,
-                name: () => "Switch For Objects",
+                name: () => SHelper.Translation.Get("configuration.switchForObjects"),
                 getValue: () => Config.SwitchForObjects,
                 setValue: value => Config.SwitchForObjects = value
             );
