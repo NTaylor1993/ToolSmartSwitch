@@ -12,7 +12,7 @@
     "Directory": "_releases",
     "ModFolder": "ToolSmartSwitch"
   },
-  "UpdateKeys": [ "Nexus:15216" ],
+  "UpdateKeys": [ "Nexus:20829" ],
   "Dependencies": [
     {
       "UniqueID": "Platonymous.ModUpdater",
