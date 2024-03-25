@@ -105,7 +105,7 @@ namespace ToolSmartSwitch
             ); 
             configMenu.AddTextOption(
                 mod: ModManifest,
-                name: () => "Max Monster Distance",
+                name: () => SHelper.Translation.Get("config.maxMonsterDistance"),
                 getValue: () => Config.MonsterMaxDistance + "",
                 setValue: delegate (string value) { if (float.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out float f)) { Config.MonsterMaxDistance = f; } }
             );
