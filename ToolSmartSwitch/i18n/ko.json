@@ -1,0 +1,20 @@
+{
+  "config.modEnabled": "모드 활성화",
+  "config.toggleButton": "토글 버튼",
+  "config.onlyWhenHolding": "도구를 들고 있을 때만",
+  "config.switchFromWeapon": "무기에서 전환",
+  "config.switchForAnimals": "동물 전환",
+  "config.switchForMonsters": "괴물 전환",
+  "config.maxMonsterDistance": "최대 괴물 거리",
+  "config.switchForTrees": "나무 전환",
+  "config.switchForGrass": "잔디 전환",
+  "config.switchForCrops": "작물 전환",
+  "config.harvestWithScythe": "낫으로 수확하기 (모드)",
+  "config.switchForResourceClumps": "자원 덩어리 전환",
+  "config.switchForPan": "선광 냄비 전환",
+  "config.switchForWateringCan": "물뿌리개 전환",
+  "config.switchForTilling": "경작 전환",
+  "config.switchForWatering": "물 주기 전환",
+  "config.switchForFishing": "낚시 전환",
+  "config.switchForObjects": "물건 전환"
+}
